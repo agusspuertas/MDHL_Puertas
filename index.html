@@ -9,24 +9,25 @@
     <link rel="shortcut icon" href="./assets/img/hockey_favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
-        <h1 class="titulo">Mighty Ducks Hockey League</h1>
-        <img src="./assets/img/design2_image1.jpg" class="banner" alt="banner">
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./rules.html">The Rules & Policies</a>
-        </nav>
-        <h2 class="titulo_secundario">
-            Upcoming Events
-        </h2>
+        <div class="encabezado_fijo">
+            <img class="logo" src="./assets/img/logoMightyDucks01.png" alt="Logo de Mighty Ducks Hockey League">
+            <h1 class="titulo">Mighty Ducks Hockey League</h1>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="./about.html">About MDHL</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./rules.html">Rules & Policies</a>
+                <a href="./game_info.html">Game Information</a>
+            </nav>
+        </div>
+        <img src="./assets/img/design2_image1.jpg" id="banner" alt="banner">
     </header>
     <main>
-        <div class="section">
-            <img class="logo" src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo de Mighty Ducks Hockey League">
-            <div class="info_texto">
+            <section>
+                <h2 class="titulo_secundario">Upcoming Events</h2>
                 <article>
                     <h3>August 4</h3>
                     <p>MDSL Fundraiser</p>
@@ -39,9 +40,11 @@
                     <h3>September 1</h3>
                     <p>First Game of the Season (Check Game Schedule for details)</p>
                 </article>
+            </section>
             </div>
-            <img class="img_task1" src="./assets/img/hockey_1.jpg" alt="Hockey_1">
+            <!-- <img class="img_task1" src="./assets/img/hockey_1.jpg" alt="Hockey_1"> -->
         </div>
     </main>
 </body>
+
 </html>
