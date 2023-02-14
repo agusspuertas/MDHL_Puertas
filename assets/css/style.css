@@ -11,6 +11,7 @@ body {
 }
 header{
     height: 76.2vh;
+    width: 100vw;
 }
 main {
     width: 100%;
@@ -22,7 +23,6 @@ main {
     height: 10.5vh;
     background-color: #223B58;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
 }
@@ -31,7 +31,6 @@ nav{
     padding: 2vh;
     margin-right: 1vw;
     margin-top: 2vh;
-    justify-content: space-around;
 }
 .titulo{
     font-size: 2.362vw;
@@ -42,9 +41,9 @@ nav{
 .logo{
     width: auto;
     height: 16vh;
-    margin-top: 5vh;
+    margin-top: 5.256vh;
     object-fit: contain;
-    
+    transition: transform 0.8s;
 }
 nav a {
     padding: 0.5vw 1.2vw;
@@ -70,7 +69,7 @@ nav a {
     padding: 0.5vw 2.25vw;
     background-color: #223B58;
     border: 4px solid black;
-    color: rgb(0, 0, 0);
+    color: #EAD7D7;
     position: sticky;
     top: 10.5vh
 }
@@ -93,7 +92,10 @@ section{
     border: 3px solid black;
     padding: 1.5vh;
     align-self: center;
-    margin: 2vh 25vw 10vh 25vw;
+    margin: 5vh 25vw 5vh 25vw;
+}
+.logo:hover{
+    transform: scale(1.2);
 }
 h3{
     text-decoration: underline;
@@ -101,10 +103,27 @@ h3{
   }
 footer{
     width: 100%;
-    height: 40vh;
+    height: auto;
     background-color: #b88e93;
 }
 
+/* Galeria */
 
+.galeria{
+    display: flex;
+    justify-content: center;
+    
+}   
+.galeriaDeFotos{
+    border: 3px solid #131615 ;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 4vw 2vw;
+    height: 16vw;
+    transition: transform 0.8s;
+}
+.galeriaDeFotos:hover{
+    transform: scale(1.3);
+}
 
 

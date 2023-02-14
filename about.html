@@ -12,30 +12,28 @@
 
 <body>
     <header>
-        <h1 class="titulo">Mighty Ducks Hockey League</h1>
-        <img src="./assets/img/design2_image1.jpg" class="banner" alt="banner">
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="#" class="active">About MDHL</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./rules.html">The Rules & Policies</a>
-            <a href="./game_info.html">Game Information</a>
-        </nav>
-        <h2 class="titulo_secundario">
-            About
-        </h2>
+        <div class="encabezado_fijo">
+            <img class="logo" src="./assets/img/logoMightyDucks-02" alt="Logo de Mighty Ducks Hockey League">
+            <h1 class="titulo">Mighty Ducks Hockey League</h1>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="#" class="active">About MDHL</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./rules.html">The Rules & Policies</a>
+                <a href="./game_info.html">Game Information</a>
+            </nav>
+        </div>
+        <img src="./assets/img/design2_image1.jpg" id="banner" alt="banner">
     </header>
-
     <main>
-        <div class="section">
-            <img class="logo" src="./assets/img/logoMightyDucks01.png" alt="Logo de Mighty Ducks Hockey League">
+        <section>
+            <h2 class="titulo_secundario"> About</h2>
             <div class="info_texto">
                 <article>
                     <h3>Mision</h3>
                     <p>To support young athletes living Chicago's northside neighborhood, who have an interest in
                         learning and playing soccer, with opportunities to learn and practice skills related to the game
-                        of
-                        hockey, specifically those skills around team cooperation and good sportsmanship.</p>
+                        of hockey, specifically those skills around team cooperation and good sportsmanship.</p>
                 </article>
                 <article>
                     <h3>Vision</h3>
@@ -51,10 +49,15 @@
                         volunteer time of parents and previous league members.</p>
                 </article>
             </div>
-            <img class="img_task1" src="./assets/img/hockey_2.jpg" alt="Hockey_2">
-        </div>
-
+        </section>
     </main>
+    <footer>
+        <h2 class="titulo_secundario">Photo Gallery</h2>
+        <div class="galeria">
+            <img src="./assets/img/hockey_1.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+            <img src="./assets/img/hockey_2.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+            <img src="./assets/img/hockey_3.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+        </div>
+    </footer>
 </body>
-
 </html>
