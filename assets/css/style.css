@@ -3,16 +3,23 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
+    color: #131615;
 }
 
 body {
     min-height: 100%;
 }
-
+header{
+    height: 76.2vh;
+}
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #3F6DA2;
+}
 .encabezado_fijo{
     min-width: 100vw;
-    height: 10rem;
+    height: 10.5vh;
     background-color: #223B58;
     display: flex;
     justify-content: space-between;
@@ -22,50 +29,81 @@ body {
 
 nav{
     padding: 2vh;
-    margin-right: 3vw;
-    align-self: flex-end;
+    margin-right: 1vw;
+    margin-top: 2vh;
     justify-content: space-around;
 }
 .titulo{
     font-size: 2.362vw;
     flex-grow: 1;
     color: #F1E4E4;
+    padding: 1rem;
 }
-
-
 .logo{
-    width: 10rem;
-    height: 10rem;
+    width: auto;
+    height: 16vh;
+    margin-top: 5vh;
     object-fit: contain;
+    
 }
-
 nav a {
-    padding: 0.3vw 1.2vw;
+    padding: 0.5vw 1.2vw;
     background-color: #b88e93;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1vw;
     border: 3px solid black;
-    margin: 1vw;
+    margin: 0.3vw;
     text-decoration: none;
-    border-radius: 1rem;
+    border-radius: 3.5rem;
     max-width: 3rem;
 }
 #banner {
-        height: 66.7vh;
+        height: 65.7vh;
         width: 100%;
         background-attachment: fixed;
-        margin-top: 17vh;
+        margin-top: 10.5vh;
 }
 .titulo_secundario {
     text-align: center;
     font-size: 1.8vw;
     padding: 0.5vw 2.25vw;
+    background-color: #223B58;
     border: 4px solid black;
     color: rgb(0, 0, 0);
+    position: sticky;
+    top: 10.5vh
+}
+.active {
+    background-color: rgb(88, 129, 241);
+    color: white;
 }
 
-
+a:hover {
+    background-color: rgb(113, 149, 250);
+    color: black;
+}
+section{
+        width: 100%;
+}
+.info_texto {
+    display: inline-block;
+    font-size: 1.5vw;
+    width: 50vw;
+    border: 3px solid black;
+    padding: 1.5vh;
+    align-self: center;
+    margin: 2vh 25vw 10vh 25vw;
+}
+h3{
+    text-decoration: underline;
+      color: black;
+  }
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #b88e93;
+}
 
 
 
