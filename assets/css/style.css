@@ -32,13 +32,13 @@ nav{
     margin-right: 1vw;
     margin-top: 2vh;
 }
-.titulo{
+#titulo{
     font-size: 2.362vw;
     flex-grow: 1;
     color: #F1E4E4;
     padding: 1rem;
 }
-.logo{
+#logo{
     width: auto;
     height: 16vh;
     margin-top: 5.256vh;
@@ -94,7 +94,10 @@ section{
     align-self: center;
     margin: 5vh 25vw 5vh 25vw;
 }
-.logo:hover{
+article{
+    padding: 0.5rem;
+}
+#logo:hover{
     transform: scale(1.2);
 }
 h3{

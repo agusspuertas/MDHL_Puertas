@@ -12,30 +12,36 @@
 
 <body>
     <header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <img src="./assets/img/design2_image1.jpg" class="banner" alt="banner">
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="#" class="active">Contact</a>
-            <a href="./rules.html">The Rules & Policies</a>
-            <a href="./game_info.html">Game Information</a>
-        </nav>
-        <h2 class="titulo_secundario">
-            Contact
-        </h2>
+        <div class="encabezado_fijo">
+            <img id="logo" src="./assets/img/logoMightyDucks-02" alt="Logo de Mighty Ducks Hockey League">
+            <h1 id="titulo" >Mighty Ducks Hockey League</h1>
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About MDHL</a>
+                <a href="./game_info.html">Game Information</a>
+                <a href="./rules.html">The Rules & Policies</a>
+                <a href="#" class="active">Contact</a>
+            </nav>
+        </div>
+        <img src="./assets/img/design2_image1.jpg" id="banner" alt="banner">
     </header>
     <main>
-        <div class="section">
-            <img class="logo" src="./assets/img/logoMightyDucks01.png" alt="Logo de Mighty Ducks Hockey League">
+        <section>
+            <h2 class="titulo_secundario">Contact</h2>
             <div class="info_texto">
-
                 <p>Please email us at <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a></p>
                 <p>We reply to your email as soon as we can.</p>
             </div>
-            <img class="img_task1" src="./assets/img/hockey_3.jpg" alt="Hockey_3">
-        </div>
+        </section>
     </main>
+    <footer>
+        <h2 class="titulo_secundario">Photo Gallery</h2>
+        <div class="galeria">
+            <img src="./assets/img/hockey_1.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+            <img src="./assets/img/hockey_2.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+            <img src="./assets/img/hockey_3.jpg" alt="Imagen de hockey" class="galeriaDeFotos">
+        </div>
+    </footer>
 </body>
 
 </html>
