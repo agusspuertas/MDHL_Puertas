@@ -10,7 +10,7 @@
 body {
     max-width: 100%;
     min-height: 100%;
-    background-color: #3F6DA2;
+    /* background-color: #6B6490; */
 }
 header{
     height: 76.2vh;
@@ -18,8 +18,8 @@ header{
 }
 main {
     width: 100%;
-
     background-color: #6B6490;
+   
 }
 .encabezado_fijo{
     min-width: 100vw;
@@ -70,7 +70,7 @@ nav a {
     border: 4px solid black;
     color: #d6b9b9;
     position: sticky;
-    top: 10.5vh
+    top: 10.1vh
 }
 .active {
     color: #d6b9b9;
@@ -81,15 +81,19 @@ a:hover {
 }
 section{
         width: 100%;
+        min-height: 100%;
+        padding-bottom: 5vh;
 }
 .info_texto {
     background-color: #d6b9b9;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     width: 50vw;
     border: 3px solid black;
     padding: 2vh 2.5vw 2vh 2.5vw;
     align-self: center;
-    margin: 5vh 25vw 5vh 25vw;
+    margin: 5vh 25vw 0vh 25vw;
+    
+
 }
 article{
     padding: 0.5rem;
@@ -119,15 +123,20 @@ footer{
     text-indent: 2em 
 }
 th,tr, td{
-    background-color: #A6B1E1;
+    background-color: #dccdcdb8;
     padding: 0.5rem;
     border: 1px solid black;
 }
 dt{
     font-weight: bold;
 }
-
-/* Galeria */
+table{
+padding-left: 5.98rem;
+}
+.padingListas{
+    padding-bottom: 0.6rem;
+}
+/* GALERY */
 
 .galeria{
     display: flex;
@@ -156,3 +165,63 @@ dt{
     transform: scale(1.15);
 }
 
+/* FORM */
+form {
+    max-width: 50vw;
+    margin: 1.3rem auto;
+  }
+
+    #parrafoForm{
+        padding-bottom: 1rem;
+    }
+
+    .flexform{
+        display: inline-block;
+    }
+
+  fieldset {
+    margin-bottom: 1rem;
+    border: 3px solid #131615;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  .personalData{
+    display: flex;
+    flex-direction: column;
+  }
+  .estiloform{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  legend {
+    background-color: #223B58;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 1rem;
+    color: #d6b9b9;
+  }
+  label {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select,input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #f3f7f6;
+    width: 100%;
+  }
+  input[type="submit"]{
+    font-weight: bold;
+    background-color: #C4BBF2;
+   font-size: 1.5rem;
+   padding: 0.5rem;
+    border-radius: 0.6rem;
+    width: 13rem;
+    align-self: center;
+  }
